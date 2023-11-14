@@ -59,6 +59,11 @@ services:
       - -label=deployment=byos
       # TODO: add helpful server location metadata labels.
       - -label=region=BR-RJ
+      - -label=latitude=-22.40490000
+      - -label=longitude=-43.1152000
+      - -label=city=Rio de Janeiro
+      - -label=country_code=BR
+      - -label=continent_code=SA
       # Effectively disable ndt5.
       - -ndt5_addr=127.0.0.1:3002
       - -ndt5_ws_addr=127.0.0.1:3001
