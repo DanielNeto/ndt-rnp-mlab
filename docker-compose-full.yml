@@ -58,7 +58,7 @@ services:
       - -label=type=virtual
       - -label=deployment=byos
       # TODO: add helpful server location metadata labels.
-      - -label=region=TODO
+      - -label=region=BR-RJ
       # Effectively disable ndt5.
       - -ndt5_addr=127.0.0.1:3002
       - -ndt5_ws_addr=127.0.0.1:3001
